@@ -2,16 +2,13 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node ./lib/index.ts",
     "watch": "nodemon",
-    "start": "ts-node ./lib/index.ts",
+    "start": "node ./dist/index.js",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "Maksym Kobzar",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "body-parser": "1.20.1",
